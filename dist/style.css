@@ -1,0 +1,74 @@
+@import
+url(https://fonts.googleapis.com/css?family=Cinzel+Decorative);
+
+@import
+url(https://fonts.googleapis.com/css?family=PT+Serif+Caption);
+
+#main {
+  display: flex;
+  margin: 20px 1px 30px 1px;
+  background-color: LemonChiffon;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  font-family: PT Serif Caption, serif;
+}
+
+#title, #tagline, #img-caption {
+  text-align: center;
+}
+
+#img-div, #quote {
+  background-color: tan;
+}
+
+#tribute-info, #quote {
+  text-align: left;
+}
+
+#title {
+  margin: 50px 0px 5px 0px;
+  font-family: Cinzel Decorative, serif;
+}
+
+#tagline {
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+#img-div {
+  border-radius: 15px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+#img-caption {
+  margin: 13px 0px 5px 0px;
+}
+
+#tribute-info {
+  width: 68%;
+  margin: 20px 5px 20px 0px;
+}
+
+#quote {
+  width: 60%;
+  padding: 0px 10px 0px 10px;
+  border-radius: 30px;
+}
+
+#tribute-footer {
+  margin: 20px 0px 20px 0px;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+h3 {
+  padding: 10px 0px 30px 0px;
+}
